@@ -16,7 +16,8 @@ buon lavoro!
 Ragionamento
 ===
 ##
-1. Creare un randomizer che mi stampi in pagina 5 numeri casuali e li inserisca in un array.
+1. Creare un randomizer che mi stampi in pagina 5 numeri casuali.
+2. Inserire in un array i 5 numeri casuali
 2. Creare una funzione che mandi i prompt all'utente.
 3. Creare un setTimeout che, passati 5 secondi, faccia scomparire i 5 numeri casuali e faccia partire la funzione con i prompt.
 4. Inserire i 5 numeri scritti dall'utente in un array e confrontare gli array.
