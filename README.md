@@ -18,9 +18,9 @@ Ragionamento
 ##
 1. Creare un randomizer che mi crei 5 numeri casuali.
 2. Inserire in un array i 5 numeri casuali
-2. Creare una funzione che mandi i prompt all'utente.
-3. Stampare in pagina i 5 numeri
-3. Creare un setTimeout che, passati 5 secondi, faccia scomparire i 5 numeri casuali e faccia partire la funzione con i prompt.
-4. Inserire i 5 numeri scritti dall'utente in un array e confrontare gli array.
-5. Comparare gli elementi dei due array e scoprire così quali elementi ha indovinato l'utente.
-6. Stampare i risultati in pagina.
+3. Creare una funzione che mandi i prompt all'utente.
+4. Stampare in pagina i 5 numeri
+5. Creare un setTimeout che, passati 5 secondi, faccia scomparire i 5 numeri casuali e faccia partire la funzione con i prompt.
+6. Confrontare i value dei due array.
+7. Comparare gli elementi dei due array e scoprire così quali elementi ha indovinato l'utente.
+8. Stampare i risultati in pagina.
