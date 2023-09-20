@@ -40,26 +40,33 @@ setTimeout(function(){
   messageSpot.innerHTML = ``
 }, 5000)
 
+
+const arrNumFound = []
+const result = document.getElementById('result')
 setTimeout(function(){
-   promptSend ()
-}, 5100)
-  
-console.log(arrNumUser);
-
-
-// 6. Confrontare i value dei due array.
-const result = document.querySelector('h2')
-let counter = 0
-let c = 0
-while (c<5){
-  if (arrNumRandom[c] === arrNumUser[c]) {
-    counter++
+  promptSend ()
+  console.log(arrNumUser);
+  let counter = 0
+  let c = 0
+  while (c<5){
+    // 6. Confrontare i due array e vedere se all'interno di uno ci sono gli elementi dell'altro.
+    if (arrNumRandom.includes(arrNumUser[c])) {
+      const numFound = arrNumUser[c]
+      arrNumFound.push(numFound)
+      counter++
+      result.innerHTML = `Hai indovinato ${counter} numero/i su 5. <br>`
+    }
+    c++
   }
-  c++
-}
+  console.log(counter);
+  console.log(arrNumFound);
+  result.innerHTML += arrNumFound.join(' - ')
+}, 5100)
 
-console.log(counter);
 
 
-// 7. Comparare gli elementi dei due array e scoprire così quali elementi ha indovinato l'utente.
+
+
+
+// 7. 
 // 8. Stampare i risultati in pagina.

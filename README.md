@@ -21,6 +21,6 @@ Ragionamento
 3. Creare una funzione che mandi i prompt all'utente.
 4. Stampare in pagina i 5 numeri
 5. Creare un setTimeout che, passati 5 secondi, faccia scomparire i 5 numeri casuali e faccia partire la funzione con i prompt.
-6. Confrontare i value dei due array.
+6. Confrontare i due array e vedere se all'interno di uno ci sono gli elementi dell'altro.
 7. Comparare gli elementi dei due array e scoprire così quali elementi ha indovinato l'utente.
 8. Stampare i risultati in pagina.
