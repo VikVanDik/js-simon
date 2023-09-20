@@ -52,7 +52,7 @@ const result = document.querySelector('h2')
 let counter = 0
 let c = 0
 while (c<5){
-  if (arrNumRandom[c] == arrNumUser[c]) {
+  if (arrNumRandom[c] === arrNumUser[c]) {
     counter++
   }
   c++
