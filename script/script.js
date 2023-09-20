@@ -37,17 +37,29 @@ function promptSend (){
 
 // 5. Creare un setTimeout che, passati 5 secondi, faccia scomparire i 5 numeri casuali e faccia partire la funzione con i prompt.
 setTimeout(function(){
-messageSpot.innerHTML = ``
+  messageSpot.innerHTML = ``
 }, 5000)
 
 setTimeout(function(){
-  promptSend ()
+   promptSend ()
 }, 5100)
+  
 console.log(arrNumUser);
 
 
 // 6. Confrontare i value dei due array.
 const result = document.querySelector('h2')
+let counter = 0
+let c = 0
+while (c<5){
+  if (arrNumRandom[c] == arrNumUser[c]) {
+    counter++
+  }
+  c++
+}
+
+console.log(counter);
+
 
 // 7. Comparare gli elementi dei due array e scoprire così quali elementi ha indovinato l'utente.
 // 8. Stampare i risultati in pagina.
